@@ -1,0 +1,127 @@
+*{
+   
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+    background-attachment: scroll;
+}
+
+
+
+.total{
+
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+    .card{
+        text-align: center;
+        background-color: rgb(202, 164, 182);
+        border: solid 2px black;
+        height: min-content;
+        width: 300px;
+        .inscribirse{
+          text-decoration: none;
+            text-align: center;
+            color: black;
+            font-weight: 800;
+            
+        }
+        img {
+
+            height: 250px;
+            width: 300px;
+        }
+    }
+   
+}
+   
+
+
+#ballet {
+    color: deeppink;
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    line-height: 80px;
+}
+
+#bodyballet {
+    background-color: pink;
+}
+ 
+#jazz{
+    color:rgb(53, 4, 4);
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    line-height: 80px;
+}
+
+#bodyjazz {
+    background-color:rgb(153, 89, 89);
+    
+}
+
+#free {
+    color: rgb(71, 24, 7);
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    line-height: 80px;
+}
+
+#bodyfree {
+    background-color: rgb(126, 98, 98);
+}
+
+.volver {
+    background-color: pink;
+
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 2px;
+    border: solid 1px black;
+   
+    a {
+        font-size: 20px;
+        font-weight: 500;
+        
+       text-decoration: none;
+     color: black;  
+     text-align: center;
+    
+      transition: all 200ms;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+}
+
+.inscribirse {
+    color: black;
+    text-decoration: coral;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    gap: 10px;
+    transition: all 200ms;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+#bien {
+    text-align: center;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-weight: 800;
+}
+
